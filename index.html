@@ -29,8 +29,8 @@
 					<nav id="nav">
 						<ul>
 							<li><a href="#intro" class="active">Introduction</a></li>
-							<li><a href="#first">First Section</a></li>
-							<li><a href="#second">Second Section</a></li>
+							<li><a href="#first">My Areas of Specialty</a></li>
+							<li><a href="#second">EDrewcated Guesser</a></li>
 							<li><a href="#cta">Get Started</a></li>
 						</ul>
 					</nav>
@@ -43,18 +43,21 @@
 								<div class="spotlight">
 									<div class="content">
 										<header class="major">
-											<h2>Who am I?</h2>
+											<h2>Hi, I'm Drew Wingfield.</h2>
 										</header>
-										<p>I'm a freshman at Texas A&M University planning to get a degree in Cybersecurity. Lorem ipsum dolor amet.</p>
-										<ul class="actions">
+										<p>
+											I'm a freshman at Texas A&M University attempting to get a degree in Cybersecurity. 
+											In my spare time I produce music, 3D print, code, and play video games.
+										</p>
+										<!-- <ul class="actions">
 											<li><a href="generic.html" class="button">Learn More</a></li>
-										</ul>
+										</ul> -->
 									</div>
 									<span class="image"><img src="images/pic01.jpg" alt="" /></span>
 								</div>
 							</section>
 
-						<!-- First Section -->
+						<!-- My Areas of Specialty -->
 							<section id="first" class="main special">
 								<header class="major">
 									<h2>My Areas of Specialty</h2>
@@ -62,18 +65,23 @@
 								<ul class="features">
 									<li>
 										<span class="icon solid major style1 fa-code"></span>
-										<h3>Ipsum consequat</h3>
-										<p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+										<h3>Programming</h3>
+										<p>Experienced in Machine Learning, Computer Vision, and Robotics.<br>BASH, Powershell, C, C++ Java, Python, etc. </p>
 									</li>
 									<li>
 										<span class="icon major style3 fa-copy"></span>
-										<h3>Amed sed feugiat</h3>
-										<p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+										<h3>Music</h3>
+										<p>
+											I play keyboard and produce music in my spare time. 
+											I am skilled in software such as Studio One Pro, Logic Pro, and Melodyne.
+										</p>
 									</li>
 									<li>
 										<span class="icon major style5 fa-gem"></span>
-										<h3>Dolor nullam</h3>
-										<p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+										<h3>3D Printing</h3>
+										<p>
+											With two 3D printers at home a job at <a href="https://fedc.engr.tamu.edu/facility/prototyping-center/">Prototyping</a> in the <a href="https://fedc.engr.tamu.edu/">Fischer Engineering Design Center (FEDC)</a>, I consider myself an expert.
+										</p>
 									</li>
 								</ul>
 								<footer class="major">
@@ -83,36 +91,51 @@
 								</footer>
 							</section>
 
-						<!-- Second Section -->
+						<!-- EDrewcated Guesser -->
 							<section id="second" class="main special">
 								<header class="major">
-									<h2>My Project</h2>
-									<p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
-									posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
+									<h2>EDrewcated Guesser</h2>
+									<p>Software I wrote to predict matches for the FIRST Tech Challenge competition.<br />
+									Soon to be open-sourced on GitHub.</p>
 								</header>
 								<ul class="statistics">
 									<li class="style1">
 										<span class="icon solid fa-code-branch"></span>
-										<strong>5,120</strong> Etiam
+										<strong>205</strong> Commits
 									</li>
 									<li class="style2">
 										<span class="icon fa-folder-open"></span>
-										<strong>8,192</strong> Magna
+										<strong>14</strong> Tracked Files
 									</li>
 									<li class="style3">
 										<span class="icon solid fa-signal"></span>
-										<strong>2,048</strong> Tempus
+										<strong>90%</strong> Prediction Accuracy
 									</li>
 									<li class="style4">
 										<span class="icon solid fa-laptop"></span>
-										<strong>4,096</strong> Aliquam
+										<strong>1</strong> Required Device
 									</li>
 									<li class="style5">
 										<span class="icon fa-gem"></span>
-										<strong>1,024</strong> Nullam
+										<strong>34,000+</strong> Matches of training data
 									</li>
 								</ul>
-								<p class="content">Nam elementum nisl et mi a commodo porttitor. Morbi sit amet nisl eu arcu faucibus hendrerit vel a risus. Nam a orci mi, elementum ac arcu sit amet, fermentum pellentesque et purus. Integer maximus varius lorem, sed convallis diam accumsan sed. Etiam porttitor placerat sapien, sed eleifend a enim pulvinar faucibus semper quis ut arcu. Ut non nisl a mollis est efficitur vestibulum. Integer eget purus nec nulla mattis et accumsan ut magna libero. Morbi auctor iaculis porttitor. Sed ut magna ac risus et hendrerit scelerisque. Praesent eleifend lacus in lectus aliquam porta. Cras eu ornare dui curabitur lacinia.</p>
+								<p class="content">
+									<!-- In late September of 2023, I started a spreadsheet that took data from FTCScout and organized it.
+									It was event-specific, meaning we had to create a new spreadsheet for every competition, and it required manual input of match schedules.
+									But it's biggest flaw was that FTCScout would crash during compeition, as many other teams also used FTCScout.
+									So, I decided to add features. I imported each team's Offensive Power Rating (a measure of a team's scoring potential) and attempted an early version of match outcome prediction.
+									It was still very klunky, extremely inaccurate, and failed every time FTCScout crashed.
+									I then decided that I could remove FTCScout from the process, grabbing the data from the FIRST API and calculating OPR myself.
+									I wrote a lot of scripts to do just that, and also to push the resulting data to the Google Sheets spreadsheet. -->
+									I developed the EDrewcated Guesser to predict match outcomes for FIRST Tech  Challenge team #12928, the LightSaders.
+									The project started in mid-2023 and is still a work in progress.
+									The EDrewcated Guesser grabs current and previous team and match data from the official FIRST API, calculates useful statistics such as
+									<span title="Offensive Power Rating, a measure of a team's capacity to score points">OPR</span> and CCWM, predicts 
+									match outcomes for a given competition event, and pushes all of the data to a Google Sheets spreadsheet.
+									It comes with two already-trained Predictive Machine Learning Models, and a few scripts to train new ones.
+
+								</p>
 								<footer class="major">
 									<ul class="actions special">
 										<li><a href="generic.html" class="button">Learn More</a></li>
@@ -121,7 +144,7 @@
 							</section>
 
 						<!-- Get Started -->
-							<section id="cta" class="main special">
+							<!-- <section id="cta" class="main special">
 								<header class="major">
 									<h2>Congue imperdiet</h2>
 									<p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
@@ -133,21 +156,23 @@
 										<li><a href="generic.html" class="button">Learn More</a></li>
 									</ul>
 								</footer>
-							</section>
+							</section> -->
 
 					</div>
 
 				<!-- Footer -->
 					<footer id="footer">
 						<section>
-							<h2>Aliquam sed mauris</h2>
-							<p>Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat magna adipiscing tempus etiam dolore veroeros. eget dapibus mauris. Cras aliquet, nisl ut viverra sollicitudin, ligula erat egestas velit, vitae tincidunt odio.</p>
+							<h2>Music production Services</h2>
+							<p>
+								If you are a musician, fellow producer, or otherwise have raw multitracks and/or stems to mix/master, please get in touch with me by using the button below.
+							</p>
 							<ul class="actions">
-								<li><a href="generic.html" class="button">Learn More</a></li>
+								<li><a href="mailto:drewwingfield@tamu.edu?subject=Music - Contact from Website" class="button">Email Me</a></li>
 							</ul>
 						</section>
 						<section>
-							<h2>Etiam feugiat</h2>
+							<h2>Get in Touch</h2>
 							<dl class="alt">
 								<dt>Location</dt>
 								<dd>College Station, TX &bull; USA</dd>
@@ -165,7 +190,11 @@
 								<!-- <li><a href="#" class="icon brands fa-dribbble alt"><span class="label">Dribbble</span></a></li> -->
 							</ul>
 						</section>
-						<p class="copyright">&copy; Drew Wingfield. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+						<p class="copyright">&copy; Drew Wingfield. Design: <a href="https://html5up.net">HTML5 UP</a>.
+							<br>No LLMs, Machine Learning Algorithms, or any other so-called "AI" tools were used to build this website. Apart from the template, it was built from scratch by hand.
+							<br>No Texas A&M resources were used in my music production; software such as (but not limited to) the EDrewcated Guesser; the creation of this website; photos, images, and vectors; and any other intellectual property hosted on or mentioned in this website unless otherwise explicitly stated. Therefore, all such intellectual property remains solely mine unless otherwise explicitly stated.
+						</p>
+
 					</footer>
 
 			</div>
